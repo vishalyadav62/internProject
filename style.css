@@ -1,0 +1,20 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+#home {
+  background: url('images/hero.jpg') no-repeat center center/cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+#contact {
+  background-color: #343a40;
+}

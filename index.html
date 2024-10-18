@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Yadav Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Vishal Yadav</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="text-center py-5">
+    <div class="container">
+       <h1>Hello, I'm Vishal Yadav</h1>
+       <p>A developer passionate about web development, cyber security, and learning new technologies.</p>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Web App</h5>
+                        <p>A dynamic web app built using JavaScript and CSS.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Achievements Section -->
+<section id="achievements" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center">Achievements & Certificates</h2>
+        <form id="achievementForm">
+            <input type="text" placeholder="New Achievement" class="form-control my-2" required>
+            <input type="file" class="form-control-file mb-2" accept="image/*">
+            <button type="submit" class="btn btn-success">Add Achievement</button>
+        </form>
+        <div id="achievementsList" class="mt-4"></div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Skills</h2>
+        <ul class="list-group">
+            <li class="list-group-item">HTML, CSS, JavaScript</li>
+            <li class="list-group-item">Python, Java, C</li>
+            <li class="list-group-item">Cyber Security (AICTE Internship)</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-dark text-white">
+    <div class="container">
+        <h2 class="text-center">Contact Me</h2>
+        <form>
+            <input type="text" class="form-control my-2" placeholder="Your Name" required>
+            <input type="email" class="form-control my-2" placeholder="Your Email" required>
+            <textarea class="form-control my-2" placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
